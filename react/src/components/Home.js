@@ -1,5 +1,6 @@
 import React from 'react';
 import { Routes, Route, Link } from "react-router-dom";
+import FALogo from './images/FALogo.png'
 
 function Home() {
   return (
@@ -25,7 +26,7 @@ function Home() {
   </div>
 </nav>
     <h3 className='HPTitle'>HOME </h3>
-    <img src={require('../components/FAlogo.png')}
+    <img src={FALogo} height={200} width={200} />
     <div className='CSFeatures'> Time Clock (coming soon!)</div>
     <div className='CSFeatures'> Schedule View (coming soon!)</div>
     <Link to='/test' className='HPLinks'>Test Page</Link>
