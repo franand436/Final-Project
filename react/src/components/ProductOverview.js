@@ -1,12 +1,13 @@
 import React from 'react';
 import { Routes, Route, Link } from 'react-router-dom';
+import FALogo from './images/FALogo.png';
 
-//This is a quick test page to see if router is working properly.  Page CAN be deleted after testing is complete. 
-function Test() {
+function ProductOverview() {
   return (
     <>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" href="#">Site Shortcuts</a>
+     <img className='NavBarLogo' src={FALogo} />
+     <div className='NavBarLogo'>Store Tracker</div>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -16,7 +17,7 @@ function Test() {
         <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="/test">Test Page</a>
+        <a class="nav-link" href="/productOverview">ProductOverview Page</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="/inventoryTable">Inventory Overview</a>
@@ -25,7 +26,8 @@ function Test() {
     <div className='titleText'>Francisco's Inventory Tracker | FINAL PROJECT</div>
   </div>
 </nav>
-    <h3>You are viewing the "Test" page :D</h3>
+    <h3>You are viewing the "ProductOverview" page :D</h3>
+    <div><Link to="/">Click here to go back to home page</Link></div>
     <Link to='/'>Home Page</Link>
     <br />
     <Link to='/inventoryTable'>Inventory</Link>
@@ -34,4 +36,4 @@ function Test() {
   )
 }
 
-export default Test
+export default ProductOverview

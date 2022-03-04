@@ -6,7 +6,8 @@ function Home() {
   return (
     <>
      <nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" href="#">Site Shortcuts</a>
+     <img className='NavBarLogo' src={FALogo} />
+     <div className='NavBarLogo'>Store Tracker</div>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -16,7 +17,7 @@ function Home() {
         <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="/test">Test Page</a>
+        <a class="nav-link" href="/productOverview">ProductOverview</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="/inventoryTable">Inventory Overview</a>
@@ -26,12 +27,12 @@ function Home() {
   </div>
 </nav>
     <h3 className='HPTitle'>HOME </h3>
-    <img src={FALogo} height={200} width={200} />
+    <div className='CSFeatures'><Link to="/inventoryTable">Inventory</Link></div>
+    <div className='CSFeatures'><Link to="/productOverview">ProductOverview</Link></div>
     <div className='CSFeatures'> Time Clock (coming soon!)</div>
     <div className='CSFeatures'> Schedule View (coming soon!)</div>
-    <Link to='/test' className='HPLinks'>Test Page</Link>
-    <br />
-    <Link to='/inventoryTable' className='HPLinks'>Inventory Overview</Link>    
+    <div className='CSFeatures'> Sales Tracker (coming soon!)</div>
+    <br />  
     </>
   )
 }

@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import Home from './components/Home';
-import Test from './components/Test';
+import ProductOverview from './components/ProductOverview';
 import InventoryTable from './components/InventoryTable';
 import { Routes, Route } from 'react-router-dom';
 
@@ -10,7 +10,7 @@ function App() {
         <div className="App">
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/test" element={<Test />} />
+        <Route path="/productOverview" element={<ProductOverview />} />
         <Route path="/inventoryTable" element={<InventoryTable />} />
       </Routes>
     </div>
