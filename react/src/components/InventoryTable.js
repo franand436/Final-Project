@@ -16,7 +16,7 @@ function InventoryTable() {
         <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="/test">Test Page</a>
+        <a class="nav-link" href="/productOverview">ProductOverview</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="/inventoryTable">Inventory Overview</a>
