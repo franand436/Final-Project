@@ -25,6 +25,7 @@ function Home() {
   </div>
 </nav>
     <h3 className='HPTitle'>HOME </h3>
+    <img src={require('../components/FAlogo.png')}
     <div className='CSFeatures'> Time Clock (coming soon!)</div>
     <div className='CSFeatures'> Schedule View (coming soon!)</div>
     <Link to='/test' className='HPLinks'>Test Page</Link>
