@@ -1,7 +1,16 @@
 import React from 'react';
 import { Routes, Route, Link } from 'react-router-dom';
 import FALogo from './images/FALogo.png';
-import iphone13midnight from './images/iphone13midnight';
+import iphone13midnight from '../components/images/iphone13midnight.png';
+import iphone13red from '../components/images/iphone13red.png';
+import iphone13starlight from '../components/images/iphone13starlight.png';
+import iphone13promaxblue from '../components/images/iphone13promaxblue.png';
+import iphone13promaxgraphite from '../components/images/iphone13promaxgraphite.png';
+import OnePlus9Astralblack from '../components/images/OnePlus9Astralblack.png';
+import OnePlus9Wintermist from '../components/images/OnePlus9Wintermist.png';
+import S22UltraBurgundy from '../components/images/S22UltraBurgundy.jpg';
+import S22UltraGreen from '../components/images/S22UltraGreen.jpg';
+import S22UltraPhantomBlack from '../components/images/S22UltraPhantomBlack.jpg';
 
 function ProductOverview() {
   return (
@@ -27,40 +36,39 @@ function ProductOverview() {
     <div className='titleText'>Francisco's Inventory Tracker | FINAL PROJECT</div>
   </div>
 </nav>
-    <h3>You are viewing the "ProductOverview" page :D</h3>
-    <div>
-      <ul>
-      <li>Galaxy s22 Ultra Burgandy/Green/Black(3)</li>
-      <li>iPhone 13 Pro Max blue/graphite(2)</li>
-      <li>iPhone 13 midnight/red/starlight(3)</li>
-      <li>Total 10</li>
-        
-      </ul>
+    <h3 className='POTitle'>Devices in stock.</h3>
+    <div className='prodDiv'>
+    <img className='op9icon' src={OnePlus9Astralblack}/>
+    <img className='op9icon' src={OnePlus9Wintermist}/>
+        <div className='prodTitle'>OnePlus 9</div>
+        <div className='prodMan'>Phone Manufacturer: One Plus</div>
+        <div className='colorOpt'>Memory Capacity: 128 GB</div>
+        <div>Color Options (2) : Astralblack / Wintermist</div>
     </div>
-    <div>
-        <img src='{iphone13midnight}'></img>
-        <div>OnePlus 9</div>
-        <div>Phone Manufacturer: One Plus</div>
-        <div>Memory Capacity: 128 GB</div>
-        <div>Color Options:(2)"Astralblack"/"Wintermist"</div>
+    <div className='prodDiv'>
+    <img className='s22icon' src={S22UltraBurgundy}/>
+    <img className='s22icon' src={S22UltraGreen}/>
+    <img className='s22icon' src={S22UltraPhantomBlack}/>
+        <div className='prodTitle'>Galaxy S22 Ultra</div>
+        <div className='prodMan'>Phone Manufacturer: Samsung </div>        <div>Memory Capacity: 128/256/512/1000 GB</div>
+        <div className='colorOpt'>Color Options (3) : Burgundy / Green / Phantom Black</div>
     </div>
-    <div>
-        <div>Galaxy S22 Ultra</div>
-        <div>Phone Manufacturer: Samsung </div>
-        <div>Memory Capacity: 128/256/512/1000 GB</div>
-        <div>Color Options:(3)"Phantom Black"/"Green"/"Burgundy "</div>
+    <div className='prodDiv'>
+    <img className='ip13icon' src={iphone13midnight}/>
+    <img className='ip13icon' src={iphone13red}/>
+    <img className='ip13icon' src={iphone13starlight}/>
+        <div className='prodTitle'>iPhone 13</div>
+        <div className='prodMan'>Phone Manufacturer: One Plus</div>
+        <div className='colorOpt'>Memory Capacity:  128/256/512/1000 GB</div>
+        <div>Color Options (3) : Midnight / (PRODUCT)RED / Starlight</div>
     </div>
-    <div>
-        <div>iPhone 13</div>
-        <div>Phone Manufacturer: One Plus</div>
-        <div>Memory Capacity:  128/256/512/1000 GB</div>
-        <div>Color Options:(3)"(PRODUCT)RED"/"Midnight"/"Starlight"</div>
-    </div>
-    <div>
-        <div>iPhone 13 Pro Max</div>
-        <div>Phone Manufacturer: One Plus</div>
-        <div>Memory Capacity: 128/256/512/1000 GB</div>
-        <div>Color Options:(2)"Sierra Blue"/"Graphite"</div>
+    <div className='prodDiv'>
+    <img className='ip13maxicon' src={iphone13promaxblue}/>
+    <img className='ip13maxicon' src={iphone13promaxgraphite}/>
+        <div className='prodTitle'>iPhone 13 Pro Max</div>
+        <div className='prodMan'>Phone Manufacturer: One Plus</div>
+        <div className='colorOpt'>Memory Capacity: 128/256/512/1000 GB</div>
+        <div>Color Options (2) : Sierra Blue / Graphite</div>
     </div>
     <br />
     <div><Link to="/">Click here to go back to home page</Link></div>
