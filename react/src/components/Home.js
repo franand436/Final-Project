@@ -7,7 +7,7 @@ function Home() {
     <>
      <nav class="navbar navbar-expand-lg navbar-light bg-light">
      <img className='NavBarLogo' src={FALogo} />
-     <div className='NavBarLogo'>Store Tracker</div>
+     <div className='NavBarLogo'>Store Tracker (BETA)</div>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -32,7 +32,11 @@ function Home() {
     <div className='CSFeatures'> Time Clock (coming soon!)</div>
     <div className='CSFeatures'> Schedule View (coming soon!)</div>
     <div className='CSFeatures'> Sales Tracker (coming soon!)</div>
-    <br />  
+    <br />
+    <div class="container">
+      <div class="col">Col ONE</div>
+      <div class="col">Col TWO</div>
+    </div>
     </>
   )
 }
