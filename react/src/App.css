@@ -8,12 +8,12 @@
   font-weight: bold;
   font-size: 20px;
 }
-.prodMan {
+/* .prodMan {
 
 }
 .colorOpt {
 
-}
+} */
 .prodDiv {
   padding-bottom: 3em;
 }
@@ -45,6 +45,17 @@
 }
 
 /* HomePage */
+
+.maincontainer {
+  border: 1px solid green;
+}
+.my-row {
+  border: 3px solid red;
+}
+.my-col {
+  border: 3px dotted blue;
+}
+
 .HPTitle {
   font-weight: 600;
   text-decoration: underline;

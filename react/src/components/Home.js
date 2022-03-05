@@ -14,7 +14,7 @@ function Home() {
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item active">
-        <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="/">Home</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="/productOverview">ProductOverview</a>
@@ -33,9 +33,22 @@ function Home() {
     <div className='CSFeatures'> Schedule View (coming soon!)</div>
     <div className='CSFeatures'> Sales Tracker (coming soon!)</div>
     <br />
-    <div class="container">
-      <div class="col">Col ONE</div>
-      <div class="col">Col TWO</div>
+    <div class="container maincontainer">
+      <div class="row my-row">
+        <div class="col my-col">
+          Row 1 Col 1  
+        </div>        
+      </div>
+      <div class="row my-row">
+        <div class="col my-col">
+          Row 1 Col 2  
+        </div>        
+      </div>
+      <div class="row my-row">
+        <div class="col my-col">
+          Row 2 Col 1  
+        </div>        
+      </div>
     </div>
     </>
   )

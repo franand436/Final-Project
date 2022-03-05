@@ -1,5 +1,5 @@
 import React from 'react';
-import { Routes, Route, Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import FALogo from './images/FALogo.png';
 import iphone13midnight from '../components/images/iphone13midnight.png';
 import iphone13red from '../components/images/iphone13red.png';
@@ -17,7 +17,7 @@ function ProductOverview() {
     <>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
      <img className='NavBarLogo' src={FALogo} />
-     <div className='NavBarLogo'>Store Tracker</div>
+     <div className='NavBarLogo'>Store Tracker (BETA)</div>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -42,7 +42,7 @@ function ProductOverview() {
     <img className='op9icon' src={OnePlus9Wintermist}/>
         <div className='prodTitle'>OnePlus 9</div>
         <div className='prodMan'>Phone Manufacturer: One Plus</div>
-        <div className='colorOpt'>Memory Capacity: 128 GB</div>
+        <div className='colorO'>Memory Capacity: 128 GB</div>
         <div>Color Options (2) : Astralblack / Wintermist</div>
     </div>
     <div className='prodDiv'>
@@ -51,7 +51,7 @@ function ProductOverview() {
     <img className='s22icon' src={S22UltraPhantomBlack}/>
         <div className='prodTitle'>Galaxy S22 Ultra</div>
         <div className='prodMan'>Phone Manufacturer: Samsung </div>        <div>Memory Capacity: 128/256/512/1000 GB</div>
-        <div className='colorOpt'>Color Options (3) : Burgundy / Green / Phantom Black</div>
+        <div className='colorO'>Color Options (3) : Burgundy / Green / Phantom Black</div>
     </div>
     <div className='prodDiv'>
     <img className='ip13icon' src={iphone13midnight}/>
@@ -59,7 +59,7 @@ function ProductOverview() {
     <img className='ip13icon' src={iphone13starlight}/>
         <div className='prodTitle'>iPhone 13</div>
         <div className='prodMan'>Phone Manufacturer: One Plus</div>
-        <div className='colorOpt'>Memory Capacity:  128/256/512/1000 GB</div>
+        <div className='colorO'>Memory Capacity:  128/256/512/1000 GB</div>
         <div>Color Options (3) : Midnight / (PRODUCT)RED / Starlight</div>
     </div>
     <div className='prodDiv'>
@@ -67,7 +67,7 @@ function ProductOverview() {
     <img className='ip13maxicon' src={iphone13promaxgraphite}/>
         <div className='prodTitle'>iPhone 13 Pro Max</div>
         <div className='prodMan'>Phone Manufacturer: One Plus</div>
-        <div className='colorOpt'>Memory Capacity: 128/256/512/1000 GB</div>
+        <div className='colorO'>Memory Capacity: 128/256/512/1000 GB</div>
         <div>Color Options (2) : Sierra Blue / Graphite</div>
     </div>
     <br />
