@@ -70,9 +70,16 @@ function ProductOverview() {
         <div className='colorO'>Memory Capacity: 128/256/512/1000 GB</div>
         <div>Color Options (2) : Sierra Blue / Graphite</div>
     </div>
-    <br />
-    <div><Link to="/">Click here to go back to home page</Link></div>
-    <Link to='/inventoryTable'>Inventory</Link>
+    <footer class="main-footer">
+        <div class="containter main-footer-container">
+          <ul class="nav footer-nav">
+          <li class="nav-item">
+              <a class="nav-link">[Footer] Log Out Link (Not Functional ATM)
+              </a>
+            </li>
+          </ul>
+          </div>
+      </footer>
 
     </>
   )

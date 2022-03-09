@@ -36,29 +36,42 @@
   text-decoration: underline;
   padding-right: 10px;
 }
+.main-footer {
+  background-color: #ebebeb;
+  color: #777;
+  padding: .25em 0;
+  height: 50px;
+}
+
+.main-footer-container {
+  display: flex;
+  align-items: center;
+}
+
+.main-footer-container ul {
+  flex-grow: 1;
+  text-align: end;
+}
 
 .nav-link{
   font-weight: 600;
 }
 
-/* HomePage */
-
-.maincontainer {
-  border: 1px solid green;
-}
-.my-row {
-  border: 3px solid red;
-}
-.my-col {
-  border: 3px dotted blue;
-}
-
 .HPTitle {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 1em;
   font-weight: 600;
-  text-decoration: underline;
 }
 
 .CSFeatures{
+  display: flex;
+   align-items: center; 
+   justify-content: center;
+  height: 10em;
+  width: 10em;
+  margin: 0 auto;
+  padding: 0 .5em;
   font-weight: 400;
   font-size: larger;
   border-style: solid;
@@ -70,4 +83,31 @@
   color: grey;
   font-weight: 600;
   text-decoration: underline;
+}
+.HPTable {
+  padding-top: 5em;
+  display: flex;
+  align-items: center; 
+  justify-content: center;
+  padding-bottom: 18em;
+}
+
+.InvHomeTab {
+  background-color: rgba(0, 0, 0, .5);
+  background-image: url("./components/images/InventoryTab.jpg");
+  background-blend-mode: multiply;
+  background-size: cover;
+}
+.ProdHomeTab {
+  background-color: rgba(0, 0, 0, .5);
+  background-image: url("./components/images/ProdOverview.jpg");
+  background-blend-mode: multiply;
+  background-size: cover;
+}
+.TCHomeTab {
+  background-color: rgba(0, 0, 0, .5);
+  background-image: url("./components/images/TimeClock.jpg");
+  background-blend-mode: multiply;
+  background-size: cover;
+  color: hsl(22, 100%, 50%);
 }
