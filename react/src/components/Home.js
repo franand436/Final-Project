@@ -29,6 +29,7 @@ function Home() {
     <h3 className='HPTitle'>HOME </h3>
     <div className='CSFeatures'><Link to="/inventoryTable">Inventory</Link></div>
     <div className='CSFeatures'><Link to="/productOverview">ProductOverview</Link></div>
+    {/* <div className='CSFeatures'><Link to="/login">Login</Link></div> */}
     <div className='CSFeatures'> Time Clock (coming soon!)</div>
     <div className='CSFeatures'> Schedule View (coming soon!)</div>
     <div className='CSFeatures'> Sales Tracker (coming soon!)</div>

@@ -4,16 +4,11 @@
 }
 
 /* Product Overview Page */
+
 .prodTitle {
   font-weight: bold;
   font-size: 20px;
 }
-/* .prodMan {
-
-}
-.colorOpt {
-
-} */
 .prodDiv {
   padding-bottom: 3em;
 }
@@ -22,6 +17,7 @@
 }
 .s22icon {
   max-height: 15em;
+  padding-right: 2em;
 }
 .ip13icon {
   max-height: 15em;
@@ -31,6 +27,7 @@
 }
 .POTitle {
   font-weight: 800;
+  padding-top: 1em;
 }
 /* Navbar */
 .NavBarLogo {
