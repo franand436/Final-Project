@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import Register from './components/Register';
 import Home from './components/Home';
 import ProductOverview from './components/ProductOverview';
 import InventoryTable from './components/InventoryTable';
@@ -14,6 +15,7 @@ function App() {
         <Route path="/productOverview" element={<ProductOverview />} />
         <Route path="/inventoryTable" element={<InventoryTable />} />
         <Route path="/login" element={<Login />} />
+        <Route path="/register" element={<Register />} />
       </Routes>
     </div>
     );
