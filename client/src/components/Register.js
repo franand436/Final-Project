@@ -1,12 +1,12 @@
 import React, { useState } from "react";
-import axios, { Axios } from "axios";
+import Axios from "axios";
 
 function Register() {
   const [usernameReg, setUsernameReg] = useState("");
   const [passwordReg, setPasswordReg] = useState("");
 
   const register = () => {
-    Axios.post("http://localhost3001/register", {
+    Axios.post("http://localhost:3001/register", {
       username: usernameReg,
       password: passwordReg,
     }).then((response) => {
