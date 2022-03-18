@@ -7,7 +7,7 @@ function Home() {
     <>
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <img className="NavBarLogo" src={FALogo} />
-        <div className="NavBarLogo">Store Tracker (BETA)</div>
+        <div className="NavBarLogo">Inventory Tracker (BETA)</div>
         <button
           class="navbar-toggler"
           type="button"
@@ -37,9 +37,6 @@ function Home() {
               </a>
             </li>
           </ul>
-          <div className="titleText">
-            Francisco's Inventory Tracker | FINAL PROJECT
-          </div>
         </div>
       </nav>
       <h3 className="HPTitle">HOME</h3>
@@ -56,7 +53,8 @@ function Home() {
         <div class="containter main-footer-container">
           <ul class="nav footer-nav">
           <li class="nav-item">
-              <a class="nav-link">[Footer] Log Out Link (Not Functional ATM)
+              <a class="nav-link" href="/login">
+                Log Out
               </a>
             </li>
           </ul>
