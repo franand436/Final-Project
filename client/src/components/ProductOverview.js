@@ -46,9 +46,15 @@ function ProductOverview() {
                 Inventory Overview
               </a>
             </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/register">
+                Register New User (ADMIN ONLY)
+              </a>
+            </li>
           </ul>
         </div>
       </nav>
+      
     <h3 className='POTitle'>Devices in stock.</h3>
     <div className='prodDiv'>
     <img className='op9icon' src={OnePlus9Astralblack}/>

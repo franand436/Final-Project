@@ -35,10 +35,18 @@ function InventoryTable() {
                 Inventory Overview
               </a>
             </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/register">
+                Register New User (ADMIN ONLY)
+              </a>
+            </li>
           </ul>
         </div>
       </nav>
+      
       <div>InventoryTable</div>
+
+      <p>***Code in table with inventory info about stock on hand and how many are in route.***</p>
       <footer class="main-footer">
         <div class="containter main-footer-container">
           <ul class="nav footer-nav">

@@ -36,9 +36,15 @@ function Home() {
                 Inventory Overview
               </a>
             </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/register">
+                Register New User (ADMIN ONLY)
+              </a>
+            </li>
           </ul>
         </div>
       </nav>
+      
       <h3 className="HPTitle">HOME</h3>
       <div className="HPTable">
         <div className="CSFeatures InvHomeTab">

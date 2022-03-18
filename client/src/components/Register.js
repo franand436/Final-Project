@@ -48,9 +48,15 @@ function Register() {
                 Inventory Overview
               </a>
             </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/register">
+                Register New User (ADMIN ONLY)
+              </a>
+            </li>
           </ul>
         </div>
       </nav>
+      <p>***Add instruction about min requirements***</p>
       <div className="App">
         <div className="registration">
           <h1>Register a new user</h1>

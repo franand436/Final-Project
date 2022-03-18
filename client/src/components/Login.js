@@ -6,6 +6,7 @@ function Login() {
     <div className="App">
       <div className="login">
         <h1>Login</h1>
+        <p>***Add CSS to page***</p>
         <input type="text" placeholder="Username..." />
         <input type="password" placeholder="Password..." />
         <Link to="/home">
