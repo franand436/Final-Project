@@ -46,7 +46,7 @@ function InventoryTable() {
       
       <div>InventoryTable</div>
 
-      <p>***Code in table with inventory info about stock on hand and how many are in route.***</p>
+      <p>***Code in table with inventory info about stock on hand and how many are in route. Also change background back to white.***</p>
       <footer class="main-footer">
         <div class="containter main-footer-container">
           <ul class="nav footer-nav">
