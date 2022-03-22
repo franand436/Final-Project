@@ -22,7 +22,7 @@ function Home() {
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
-              <a class="nav-link" href="/">
+              <a class="nav-link" href="/home">
                 Home
               </a>
             </li>

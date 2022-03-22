@@ -32,7 +32,7 @@ function ProductOverview() {
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
-              <a class="nav-link" href="/">
+              <a class="nav-link" href="/home">
                 Home
               </a>
             </li>
@@ -54,22 +54,25 @@ function ProductOverview() {
           </ul>
         </div>
       </nav>
-      
+      <p>***Try to find S22Icons that do not have a white background***</p>
+      <br />
+      <p>STRETCH GOAL. Have description link to individual pages...</p>
     <h3 className='POTitle'>Devices in stock.</h3>
     <div className='prodDiv'>
     <img className='op9icon' src={OnePlus9Astralblack}/>
     <img className='op9icon' src={OnePlus9Wintermist}/>
         <div className='prodTitle'>OnePlus 9</div>
         <div className='prodMan'>Phone Manufacturer: One Plus</div>
-        <div className='colorO'>Memory Capacity: 128 GB</div>
-        <div>Color Options (2) : Astralblack / Wintermist</div>
+        <div className='memCap'>Memory Capacity: 128 GB</div>
+        <div className='colorO'>Color Options (2) : Astralblack / Wintermist</div>
     </div>
     <div className='prodDiv'>
     <img className='s22icon' src={S22UltraBurgundy}/>
     <img className='s22icon' src={S22UltraGreen}/>
     <img className='s22icon' src={S22UltraPhantomBlack}/>
         <div className='prodTitle'>Galaxy S22 Ultra</div>
-        <div className='prodMan'>Phone Manufacturer: Samsung </div>        <div>Memory Capacity: 128/256/512/1000 GB</div>
+        <div className='prodMan'>Phone Manufacturer: Samsung </div>
+        <div className='memCap'>Memory Capacity: 128 / 256 / 512 / 1000 GB</div>
         <div className='colorO'>Color Options (3) : Burgundy / Green / Phantom Black</div>
     </div>
     <div className='prodDiv'>
@@ -78,16 +81,16 @@ function ProductOverview() {
     <img className='ip13icon' src={iphone13starlight}/>
         <div className='prodTitle'>iPhone 13</div>
         <div className='prodMan'>Phone Manufacturer: One Plus</div>
-        <div className='colorO'>Memory Capacity:  128/256/512/1000 GB</div>
-        <div>Color Options (3) : Midnight / (PRODUCT)RED / Starlight</div>
+        <div className='memCap'>Memory Capacity:  128 / 256 / 512 / 1000 GB</div>
+        <div className='colorO'>Color Options (3) : Midnight / (PRODUCT)RED / Starlight</div>
     </div>
     <div className='prodDiv'>
     <img className='ip13maxicon' src={iphone13promaxblue}/>
     <img className='ip13maxicon' src={iphone13promaxgraphite}/>
         <div className='prodTitle'>iPhone 13 Pro Max</div>
         <div className='prodMan'>Phone Manufacturer: One Plus</div>
-        <div className='colorO'>Memory Capacity: 128/256/512/1000 GB</div>
-        <div>Color Options (2) : Sierra Blue / Graphite</div>
+        <div className='memCap'>Memory Capacity: 128 / 256 / 512 / 1000 GB</div>
+        <div className='colorO'>Color Options (2) : Sierra Blue / Graphite</div>
     </div>
     <footer class="main-footer">
         <div class="containter main-footer-container">
